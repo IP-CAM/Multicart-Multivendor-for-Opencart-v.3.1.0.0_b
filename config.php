@@ -21,7 +21,8 @@ define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
-define('DB_DRIVER', 'mysqli');
+define('DB_DRIVER', 'postgre');
+//define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'njoku');
 define('DB_PASSWORD', 'nuhTMX6z');

@@ -24,6 +24,16 @@ define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
+define('DB_DRIVER', 'postgre');
+//define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'njoku');
+define('DB_PASSWORD', 'nuhTMX6z');
+define('DB_DATABASE', 'multicart');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
+/*
+// DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'njoku');
@@ -31,6 +41,7 @@ define('DB_PASSWORD', 'nuhTMX6z');
 define('DB_DATABASE', 'multicart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
+*/
 
 // OpenCart API
 define('OPENCART_SERVER', 'https://www.opencart.com/');
